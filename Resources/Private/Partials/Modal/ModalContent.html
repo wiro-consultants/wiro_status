@@ -1,0 +1,39 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:t3b="http://typo3.org/ns/FelixNagel/T3extblog/ViewHelpers/Frontend" data-namespace-typo3-fluid="true">
+
+<div class="modal fade" id="exampleModal" tabindex="-1"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="31"
+                     viewBox="0 0 26.563 34" style="fill: black;">
+                    <g transform="translate(-12)" opacity="0.999">
+                        <path d="M18.417,0h-3.23A3.187,3.187,0,0,0,12,3.188V30.813A3.188,3.188,0,0,0,15.187,34H35.375a3.188,3.188,0,0,0,3.188-3.187V3.188A3.188,3.188,0,0,0,35.375,0ZM31.082,2.125v.531H19.48V2.125Zm5.355,1.063V30.813a1.063,1.063,0,0,1-1.062,1.063H15.188a1.063,1.063,0,0,1-1.062-1.062V3.188a1.063,1.063,0,0,1,1.063-1.062h2.167V3.719a1.063,1.063,0,0,0,1.063,1.063H32.145a1.062,1.062,0,0,0,1.063-1.062V2.125h2.167A1.062,1.062,0,0,1,36.437,3.188Z"/>
+                        <path d="M20.328,19.824a1.063,1.063,0,0,0,1.5,0l3.655-3.655a1.063,1.063,0,0,0-1.5-1.5l-2.906,2.906L19.4,15.877a1.063,1.063,0,0,0-1.5,1.5Z"
+                              transform="translate(3.447 -6.728)"/>
+                        <path d="M21.077,34.137a1.063,1.063,0,0,0,.754-.313l3.655-3.655a1.063,1.063,0,0,0-1.5-1.5l-2.906,2.906L19.4,29.877a1.063,1.063,0,0,0-1.5,1.5l2.444,2.444A1.063,1.063,0,0,0,21.077,34.137Z"
+                              transform="translate(3.447 -13.291)"/>
+                        <path d="M24.19,43.631a1.062,1.062,0,0,0-1.5,0l-1.317,1.312-1.312-1.312a1.063,1.063,0,1,0-1.5,1.5l1.318,1.317-1.317,1.312a1.063,1.063,0,1,0,1.5,1.5l1.312-1.312,1.317,1.312a1.063,1.063,0,1,0,1.5-1.5l-1.312-1.312L24.2,45.129A1.063,1.063,0,0,0,24.19,43.631Z"
+                              transform="translate(3.888 -20.288)"/>
+                    </g>
+                </svg>
+                <h3 class="modal-title text-primary pl-2 pt-1" id="exampleModalLabel">
+                    <f:translate key="incident.headline"/>
+                </h3>
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <f:render partial="Modal/Table" arguments="{_all}"/>
+            </div>
+            <div class="modal-footer">
+                <a href="{statusLink}" class="btn btn-primary">
+                    <f:translate key="incident.link"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

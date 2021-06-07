@@ -1,0 +1,10 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:t3b="http://typo3.org/ns/FelixNagel/T3extblog/ViewHelpers/Frontend" data-namespace-typo3-fluid="true">
+
+<f:if condition="{incidentsCount} > 0">
+    <f:then>
+        <span type="button" class="nav-link a" data-toggle="modal"
+              data-target="#exampleModal"> <f:translate key="incident.openInfo"/>
+        </span>
+    </f:then>
+</f:if>

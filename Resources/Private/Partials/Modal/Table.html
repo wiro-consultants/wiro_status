@@ -1,0 +1,58 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:t3b="http://typo3.org/ns/FelixNagel/T3extblog/ViewHelpers/Frontend" data-namespace-typo3-fluid="true">
+
+<table class="table">
+    <thead>
+    <tr>
+        <th class="border-top-0" scope="col">
+            <f:translate key="incident.time"/>
+        </th>
+        <th class="border-top-0" scope="col">
+            <f:translate key="incident.title"/>
+        </th>
+        <th class="border-top-0" scope="col">
+            <f:translate key="incident.status"/>
+        </th>
+        <th class="border-top-0" scope="col">
+            <f:translate key="incident.services"/>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <f:for each="{response.incidents}" as="status">
+        <tr>
+            <td>{status.date} <br>
+                {status.time}  <f:translate key="incident.timeUnit"/>
+            </td>
+            <td>{status.title}</td>
+            <td>
+                <f:if condition="{status.type} === 'minor'">
+                    <f:then>
+                        <span class="badge badge-pill bg-warning mr-2">&nbsp;</span>
+                        <f:translate key="incident.minor"/>
+                    </f:then>
+                    <f:else>
+                        <span class="badge badge-pill bg-danger mr-2">&nbsp;</span>
+                        <f:translate key="incident.major"/>
+                    </f:else>
+                </f:if>
+                <p> {status.current_status.activity_type_id}</p>
+            </td>
+            <td>
+                <f:for each="{response.services}" as="services">
+                    <f:for each="{status.services}" as="incidentService">
+                        <f:if condition="{services.id} === {incidentService.id}">
+                            {incidentService.name}
+                            <ul>
+                                <f:for as="children" each="{services.children}">
+                                    <li>{children.name}</li>
+                                </f:for>
+                            </ul>
+                        </f:if>
+                    </f:for>
+                </f:for>
+            </td>
+        </tr>
+    </f:for>
+    </tbody>
+</table>

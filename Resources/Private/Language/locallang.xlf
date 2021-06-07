@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" product-name="wiro_status">
+        <header/>
+        <body>
+            <trans-unit id="incident.time">
+                <source>Time</source>
+            </trans-unit>
+            <trans-unit id="incident.title">
+                <source>Incident</source>
+            </trans-unit>
+            <trans-unit id="incident.status">
+                <source>Status</source>
+            </trans-unit>
+            <trans-unit id="incident.services">
+                <source>Services</source>
+            </trans-unit>
+            <trans-unit id="incident.minor">
+                <source>Minor incident</source>
+            </trans-unit>
+            <trans-unit id="incident.major">
+                <source>Major incident</source>
+            </trans-unit>
+            <trans-unit id="incident.timeUnit">
+                <source>h</source>
+            </trans-unit>
+            <trans-unit id="activity_type_id_1">
+                <source>Investigating</source>
+            </trans-unit>
+            <trans-unit id="activity_type_id_2">
+                <source>Issue</source>
+            </trans-unit>
+            <trans-unit id="activity_type_id_3">
+                <source>Monitoring</source>
+            </trans-unit>
+            <trans-unit id="activity_type_id_5">
+                <source>Scheduled</source>
+            </trans-unit>
+            <trans-unit id="activity_type_id_6">
+                <source>Retroactive</source>
+            </trans-unit>
+            <trans-unit id="activity_type_id_7">
+                <source>Update</source>
+            </trans-unit>
+            <trans-unit id="activity_type_id_8">
+                <source>Escalate</source>
+            </trans-unit>
+            <trans-unit id="activity_type_id_9">
+                <source>De-escalate</source>
+            </trans-unit>
+            <trans-unit id="incident.none">
+                <source>There are no incidents</source>
+            </trans-unit>
+            <trans-unit id="incident.headline">
+                <source>Current incidents</source>
+            </trans-unit>
+            <trans-unit id="incident.openInfo">
+                <source>Open details</source>
+            </trans-unit>
+            <trans-unit id="incident.link">
+                <source>Statuspage</source>
+            </trans-unit>
+            <trans-unit id="incident.one">
+                <source>There is %s incident</source>
+            </trans-unit>
+            <trans-unit id="incident.multiple">
+                <source>There are %s incidents</source>
+            </trans-unit>
+            <trans-unit id="message">
+                <source>Sie haben das Plugin eingebunden, allerdings fehlt die notwendige TypoScript Konfiguration.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

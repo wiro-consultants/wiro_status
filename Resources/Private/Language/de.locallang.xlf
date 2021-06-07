@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" product-name="wiro_status">
+        <header/>
+        <body>
+            <trans-unit id="incident.time">
+                <source>Time</source>
+                <target>Zeitpunkt</target>
+            </trans-unit>
+            <trans-unit id="incident.title">
+                <source>Incident</source>
+                <target>Meldung</target>
+            </trans-unit>
+            <trans-unit id="incident.status">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="incident.services">
+                <source>Services</source>
+                <target>Services</target>
+            </trans-unit>
+            <trans-unit id="incident.minor">
+                <source>Minor incident</source>
+                <target>Schwache Störung</target>
+            </trans-unit>
+            <trans-unit id="incident.major">
+                <source>Major incident</source>
+                <target>Starke Störung</target>
+            </trans-unit>
+            <trans-unit id="incident.timeUnit">
+                <source>h</source>
+                <target>Uhr</target>
+            </trans-unit>
+            <trans-unit id="activity_type_id_1">
+                <source>Investigating</source>
+                <target>In Untersuchung</target>
+            </trans-unit>
+            <trans-unit id="activity_type_id_2">
+                <source>Issue</source>
+                <target>Problem entdeckt</target>
+            </trans-unit>
+            <trans-unit id="activity_type_id_3">
+                <source>Monitoring</source>
+                <target>Unter Beobachtung</target>
+            </trans-unit>
+            <trans-unit id="activity_type_id_5">
+                <source>Scheduled</source>
+                <target>Geplant</target>
+            </trans-unit>
+            <trans-unit id="activity_type_id_6">
+                <source>Retroactive</source>
+                <target>Rückwirkend</target>
+            </trans-unit>
+            <trans-unit id="activity_type_id_7">
+                <source>Update</source>
+                <target>Update</target>
+            </trans-unit>
+            <trans-unit id="activity_type_id_8">
+                <source>Escalate</source>
+                <target>Eskalierend</target>
+            </trans-unit>
+            <trans-unit id="activity_type_id_9">
+                <source>De-escalate</source>
+                <target>Deeskalierend</target>
+            </trans-unit>
+            <trans-unit id="incident.none">
+                <source>There are no incidents</source>
+                <target>Es liegen keine Störungen vor</target>
+            </trans-unit>
+            <trans-unit id="incident.headline">
+                <source>Current incidents</source>
+                <target>Aktuelle Störungen</target>
+            </trans-unit>
+            <trans-unit id="incident.openInfo">
+                <source>Open details</source>
+                <target>Status-Details öffnen</target>
+            </trans-unit>
+            <trans-unit id="incident.link">
+                <source>Statuspage</source>
+                <target>Statusseite</target>
+            </trans-unit>
+            <trans-unit id="incident.one">
+                <source>There is %s incident</source>
+                <target>Es liegt %s Störung vor</target>
+            </trans-unit>
+            <trans-unit id="incident.multiple">
+                <source>There are %s incidents</source>
+                <target>Es liegen %s Störungen vor</target>
+            </trans-unit>
+            <trans-unit id="message">
+                <source>You have bound the plugin but the necessary TypoScript Configuration is missing.</source>
+                <target>Sie haben das Plugin eingebunden, allerdings fehlt die notwendige TypoScript Konfiguration.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

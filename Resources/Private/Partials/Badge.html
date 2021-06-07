@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:t3b="http://typo3.org/ns/FelixNagel/T3extblog/ViewHelpers/Frontend" data-namespace-typo3-fluid="true">
+
+<f:if condition="{incidentsCount} === 0">
+    <f:then>
+        <p>
+            <f:translate key="incident.none"/>
+            <span class="badge badge-pill bg-success ml-2">&nbsp;</span>
+        </p>
+    </f:then>
+    <f:else if="{incidentsCount} === 1">
+        <p>
+            <f:translate key="incident.one" arguments="{0: '{incidentsCount}'}"/>
+            <span class="badge badge-pill bg-danger ml-2">&nbsp;</span>
+        </p>
+    </f:else>
+    <f:else>
+        <p>
+            <f:translate key="incident.multiple" arguments="{0: '{incidentsCount}'}"/>
+            <span class="badge badge-pill bg-danger ml-2">&nbsp;</span>
+        </p>
+    </f:else>
+</f:if>
