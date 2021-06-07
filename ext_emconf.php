@@ -9,4 +9,9 @@ $EM_CONF[$_EXTKEY] = [
     'state' => 'stable',
     'internal' => '',
     'version' => '1.0.0',
+    'constraints' => [
+        'depends' => [
+            'typo3' => '8.7.0-10.0.0',
+        ],
+     ]
 ];
