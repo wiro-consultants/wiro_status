@@ -2,7 +2,7 @@
   "name": "wiro/wiro-status",
   "type": "typo3-cms-extension",
   "description": "Status from Statuspal.io",
-  "license": ["GPL-2.0+"],
+  "license": ["GPL-2.0-or-later"],
   "keywords": ["TYPO3 CMS", "Extension", "Statuspal", "Monitoring"],
   "authors": [
     {
@@ -21,7 +21,7 @@
     }
   },
   "replace": {
-    "wiro_status": "self.version",
+    "wiro/wiro-status": "self.version",
     "typo3-ter/wiro-status": "self.version"
   }
 }
