@@ -21,7 +21,6 @@
     }
   },
   "replace": {
-    "wiro/wiro-status": "self.version",
     "typo3-ter/wiro-status": "self.version"
   }
 }
